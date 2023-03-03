@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 group :jekyll_plugins do
+    gem 'mini_racer'
     gem 'wdm', '>= 0.1.0'
     gem 'classifier-reborn'
     gem 'jekyll'
