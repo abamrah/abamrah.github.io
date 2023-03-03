@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 group :jekyll_plugins do
     # gem 'mini_racer'
-    # gem 'wdm', '>= 0.1.0'
+    gem 'wdm', '>=0.1.0'
     gem 'classifier-reborn'
     gem 'jekyll'
     gem 'jekyll-archives'
@@ -16,7 +16,8 @@ group :jekyll_plugins do
     gem 'jekyll-sitemap'
     gem 'jekyll-twitter-plugin'
     gem 'jemoji'
-    gem 'mini_racer'
+    #gem 'mini_racer'
+    #gem 'therubyracer'
     gem 'unicode_utils'
     gem 'webrick'
 end
