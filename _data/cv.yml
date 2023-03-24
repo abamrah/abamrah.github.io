@@ -1,7 +1,7 @@
 - title: General Information
   type: map
   contents:
-    - name: Full Name
+    - name: Name
       value: Arshdeep Bamrah
     - name: Date of Birth
       value: 27th January 1993
@@ -11,14 +11,14 @@
 - title: Education
   type: time_table
   contents:
-    - title: M.Eng
+    - title: Master's in Data Science and Machine Learning
       institution: University of Toronto, Toronto, Canada
       year: 2022
       description:
         - GPA 3.7/4.0
         - Completed coursework in Neural Networks, Reinforcement Learning, and Deep Learning, providing a strong foundation in advanced machine learning techniques and algorithms.
        
-    - title: B.Eng
+    - title: Bachelor of Engineering
       institution: Toronto Metropolitan University, Toronto, Canada
       year: 2016
       description:
