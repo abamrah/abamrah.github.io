@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 2
+title: Image Captioning
 description: a project with a background image
 img: assets/img/3.jpg
 importance: 2
-category: work
+category: fun
 ---
 
 Every project has a beautiful feature showcase page.

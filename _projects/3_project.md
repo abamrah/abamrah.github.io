@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 3
+title: Predictive Maintenace Azure IIOT
 description: a project that redirects to another website
 img: assets/img/7.jpg
 redirect: https://unsplash.com
