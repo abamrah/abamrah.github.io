@@ -17,8 +17,7 @@
       description:
         - GPA 3.7/4.0
         - Completed coursework in Neural Networks, Reinforcement Learning, and Deep Learning, providing a strong foundation in advanced machine learning techniques and algorithms.
-        - title: 
-          contents:
+       
     - title: B.Eng
       institution: Toronto Metropolitan University, Toronto, Canada
       year: 2016
@@ -39,8 +38,7 @@
         - Developed visualization dashboards to display machine health, downtime predictions, and repair frequencies of components using Machine Learning Algorithm (Time Series Analysis).
         - Presented results to the team's global head, wrote requested executive summaries detailing value propositions, and presented strategies to senior leadership and end clients.
         - Developed and conducted A/B testing on NLP and Predictive Maintenance models UI to enhance user experience and model performance.
-        - title:
-          contents:
+        
     - title: Project Engineer
       institution: Carmeuse – STT., Milton, ON
       year: 2017 - 2020
