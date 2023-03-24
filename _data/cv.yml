@@ -15,83 +15,73 @@
       institution: University of Toronto, Toronto, Canada
       year: 2022
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - GPA 3.7/4.0
+        - Completed coursework in Neural Networks, Reinforcement Learning, and Deep Learning, providing a strong foundation in advanced machine learning techniques and algorithms.
+        - title: 
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
     - title: B.Eng
       institution: Toronto Metropolitan University, Toronto, Canada
       year: 2016
       description:
-        - Description 1.
-        - Description 2.
+        - GPA 3.6/4.0
+        - Awarded Professional Engineering and Queen Elizabeth Scholarship for high academic achievements (total $10,000 awarded)
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Data Scientist
+      institution: Apotex Inc., Toronto, ON
+      year: 2021 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Defined, implemented, and operationalized new features and product-level metrics from scratch to measure the impact of product changes and track performance on machines using SQL and Python.
+        - Innovated the investigation process by developing NLP models, enabling Reliability Engineers to perform data analytics more efficiently.
+        - Implemented MS Azure Industrial IOT framework to transition the maintenance department towards predictive maintenance, enabling asset monitoring, anomaly detection, and forecasting.
+        - Developed visualization dashboards to display machine health, downtime predictions, and repair frequencies of components using Machine Learning Algorithm (Time Series Analysis).
+        - Presented results to the team's global head, wrote requested executive summaries detailing value propositions, and presented strategies to senior leadership and end clients.
+        - Developed and conducted A/B testing on NLP and Predictive Maintenance models UI to enhance user experience and model performance.
+        - title:
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+    - title: Project Engineer
+      institution: Carmeuse – STT., Milton, ON
+      year: 2017 - 2020
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+        - Utilized extensive practical experience in machine design, infrastructure design, process design, and structural mechanics to create mechanical layouts for bulk chemical plants using Solidworks and AutoCAD. Worked with Municipal Codes and Specifications to develop or improve operations at Wastewater Treatment plants, and innovated existing equipment based on new research. Liaised with project managers, expeditors, and purchasers to acquire resources and move projects forward.
 
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://github.com/abamrah/Chatbot_Stock_Optimization">Chat-Bot_Stock_Protfolio_Optimization</a>
+      year: 2022-now
+      description: Created a chatbot using IBM Watson and Python, that optimizes user portfolio by applying computational financial strategies such as Minimum Variance, Monte Carlo Simulations, and Sharpe Ratio Optimization, to increase returns by 7+%.
+
+    - title: <a href="https://github.com/abamrah/Image_Captioning">Image_Captioning_and_Generation</a>
+      year: 2021-2022
+      description: Created a model using Pytorch, Neural Networks and Transformers to generate captions of images, later used GAN to generate images from captions using Style GANs.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2011-2015
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
+        - Queen Elizabeth Scholarship for high academic achievements
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Natural Language Processing
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Text generation
+        - Information retrieval
+        - Topic modeling
+        - Sentiment analysis
+    - title: Image and Video Processing
       items:
-        - Description 1.
-        - Description 2.
+        - Object Detection and Recognition
+        - Image and Video Captioning
+        - Generative Transformer Models
+        - Style Transfer
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+  - <u>Hobbies:</u> Swimming, Hiking, Mountain biking, Camping, Mindfulness meditation, Pets.
