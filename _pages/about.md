@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <a href='https://gradstudies.engineering.utoronto.ca/professional-degrees/emphasis-in-analytics/'>M.Eng in Data Science and P.Eng</a>.
           Creativity is thinking up new things. Innovation is doing new things.
