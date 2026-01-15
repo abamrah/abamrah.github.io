@@ -20,12 +20,12 @@ selected_papers: False # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Introducing Arsh, a tech enthusiast and a highly driven Data Scientist and ML Engineer with a keen eye for innovation and problem-solving. Armed with a Master's degree in Data Science from the prestigious University of Toronto and a background in engineering, Arsh has honed his skills in developing and implementing cutting-edge data-driven solutions to optimize operational efficiency.
+Introducing Arsh, a tech enthusiast and a Senior Data Scientist & AI Engineer with over 7 years of experience delivering scalable AI solutions in regulated environments. Armed with a Master of Engineering in Machine Learning from the University of Toronto, Arsh combines deep theoretical knowledge with practical engineering rigor to bridge the gap between business strategy and technical execution.
 
-With a strong passion for machine learning, Arsh has developed a wide range of expertise in diverse areas such as Natural Language Processing, Image and Video Processing, and Generative AI. He has successfully completed several projects that showcase his skills, such as creating a chatbot for portfolio optimization and developing a model for image captioning and generation.
+With a strong passion for innovation, Arsh has developed specialized expertise in Generative AI, Agentic Frameworks, and Retrieval-Augmented Generation (RAG). His portfolio spans from designing AI-generated podcasts and conversational agents at Sanofi to implementing industrial predictive maintenance systems at Apotex. He continues to explore the cutting edge through open-source contributions, such as developing portfolio optimization chatbots and image captioning models.
 
-As an analytical thinker and a results-oriented individual, Arsh has a proven track record of delivering impactful results. His extensive experience in data science and engineering has enabled him to navigate through complex data environments and find innovative solutions that deliver real value to organizations.
+As an analytical thinker and a results-oriented leader, Arsh has a proven track record of translating complex data into measurable business impact. Whether operationalizing IIoT analytics or pioneering new GenAI product designs, he excels at navigating complex data environments to deliver real value to organizations.
 
-So, if you're looking for a dedicated and skilled ML Engineer or Data Scientist who can drive your organization's data strategy forward, Arsh is your guy!
+So, if you're looking for a dedicated and skilled AI Lead or Senior Data Scientist who can drive your organization's data strategy forward, Arsh is your guy!
 
 <!-- Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
