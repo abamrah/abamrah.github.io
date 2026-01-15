@@ -2,24 +2,49 @@
   type: map
   contents:
     - name: Name
-      value: Arshdeep Bamrah
+      value: Arshdeep Singh Bamrah, M.Eng, P.Eng
+    - name: Location
+      value: Toronto, ON
+    - name: Email
+      value: arsh.bamrah27@gmail.com
     - name: Date of Birth
       value: 27th January 1993
     - name: Languages
       value: English, Punjabi and Hindi
 
+- title: Core Skills
+  type: nested_list
+  contents:
+    - title: Generative AI & Agentic Systems
+      items:
+        - LLMs (GPT, BERT, Transformers)
+        - Agentic AI frameworks, orchestration, prompt design
+        - RAG, embeddings, semantic search
+        - Text summarization, classification, conversational AI
+        - Text-to-Speech (TTS) and Speech-to-Text (STT)
+    - title: Machine Learning & Data Science
+      items:
+        - Time-series modeling, anomaly detection, forecasting
+        - Feature engineering, supervised & unsupervised learning
+    - title: Cloud, Data & MLOps
+      items:
+        - Azure Machine Learning, AWS SageMaker
+        - Docker, Kubernetes, CI/CD pipelines
+        - Python, SQL, Pandas, NumPy, PySpark
+        - Snowflake, Databricks
+
 - title: Education
   type: time_table
   contents:
-    - title: Master's in Data Science and Machine Learning
+    - title: Master of Engineering (M.Eng), Machine Learning
       institution: University of Toronto, Toronto, Canada
       year: 2022
       description:
         - GPA 3.7/4.0
         - Completed coursework in Neural Networks, Reinforcement Learning, and Deep Learning, providing a strong foundation in advanced machine learning techniques and algorithms.
-       
-    - title: Bachelor of Engineering
-      institution: Toronto Metropolitan University, Toronto, Canada
+        
+    - title: Bachelor of Engineering (B.Eng)
+      institution: Toronto Metropolitan University (formerly Ryerson), Toronto, Canada
       year: 2016
       description:
         - GPA 3.6/4.0
@@ -28,22 +53,44 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Data Scientist
+    - title: Data Scientist (Commercial GenAI & AI Product Design)
+      institution: Sanofi, Toronto, ON
+      year: Aug 2025 – Present
+      description:
+        - Served as GenAI Data Science lead for Elevate commercial analytics initiatives, working closely with business to design and deliver Agentic AI and Generative AI solutions.
+        - Led solution design and architecture, defining how LLMs, RAG pipelines, Agentic workflows, and TTS systems integrate to support business decision-making.
+        - Translated commercial business questions into AI-ready problem statements, success metrics, and solution designs.
+        - Delivered a working AI podcast generation pilot, converting structured commercial insights into LLM-generated scripts and multi-voice audio.
+        - Developed and worked on data quality standards, grounding strategies, and validation logic, improving trust and usability of AI-generated outputs.
+        - Defined Agentic AI framework standards, including orchestration logic, feedback loops, and governance considerations.
+
+    - title: Reliability AI / Predictive Maintenance Engineer
+      institution: Sanofi, Toronto, ON
+      year: Aug 2024 – Aug 2025
+      description:
+        - Designed and deployed predictive maintenance and reliability ML workflows using time-series sensor data, SPC metrics, and anomaly detection models.
+        - Built a BERT-based NLP pipeline to automate FMEA extraction from unstructured maintenance logs, reducing manual analysis by 95%.
+        - Developed Snowflake SQL feature pipelines integrating IIoT data, alarm histories, and SAP PM records to support downtime risk scoring.
+        - Translated ML outputs into actionable maintenance strategies, supporting PdM program design and scaling across manufacturing assets.
+        - Defined data and ML architecture standards to enable scalable reliability analytics.
+
+    - title: Reliability Data Scientist
       institution: Apotex Inc., Toronto, ON
-      year: 2021 - Present
+      year: May 2021 – Aug 2024
       description:
-        - Defined, implemented, and operationalized new features and product-level metrics from scratch to measure the impact of product changes and track performance on machines using SQL and Python.
-        - Innovated the investigation process by developing NLP models, enabling Reliability Engineers to perform data analytics more efficiently.
-        - Implemented MS Azure Industrial IOT framework to transition the maintenance department towards predictive maintenance, enabling asset monitoring, anomaly detection, and forecasting.
-        - Developed visualization dashboards to display machine health, downtime predictions, and repair frequencies of components using Machine Learning Algorithm (Time Series Analysis).
-        - Presented results to the team's global head, wrote requested executive summaries detailing value propositions, and presented strategies to senior leadership and end clients.
-        - Developed and conducted A/B testing on NLP and Predictive Maintenance models UI to enhance user experience and model performance.
-        
+        - Developed time-series models forecasting equipment downtime, cycle-time deviation, and component reliability trends.
+        - Built a 95% accurate anomaly detection model using XGBoost, deployed via Azure WebApp for real-time process deviation alerts.
+        - Analyzed IIOT sensor data, alarm codes, batch records, and SCADA streams to identify early failure indicators.
+        - Designed Azure ML pipelines for ingestion, feature engineering, model training, validation, and deployment.
+        - Containerized ML workflows using Docker and implemented CI/CD-style retraining pipelines.
+        - Built transformer-based semantic search engine using GPT/BERT embeddings, reducing engineering analytics time by 4+ hours weekly.
+
     - title: Project Engineer
-      institution: Carmeuse – STT., Milton, ON
-      year: 2017 - 2020
+      institution: STT Enviro Corp, Milton, ON
+      year: Apr 2017 – Sept 2020
       description:
-        - Utilized extensive practical experience in machine design, infrastructure design, process design, and structural mechanics to create mechanical layouts for bulk chemical plants using Solidworks and AutoCAD. Worked with Municipal Codes and Specifications to develop or improve operations at Wastewater Treatment plants, and innovated existing equipment based on new research. Liaised with project managers, expeditors, and purchasers to acquire resources and move projects forward.
+        - Automated engineering calculations and layout design optimization using Python scripting and Excel VBA.
+        - Developed custom ETL pipeline for design parameters enabling early-stage predictive modeling in plant commissioning.
 
 - title: Open Source Projects
   type: time_table
