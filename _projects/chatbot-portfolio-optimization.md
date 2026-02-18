@@ -3,7 +3,7 @@ layout: project
 title: Chatbot Stock Portfolio Optimization
 description: IBM Watson chatbot that optimizes portfolios using Minimum Variance, Monte Carlo simulation, and Sharpe ratio optimization.
 category: work
-importance: 2
+importance: 3
 github: https://github.com/abamrah/Chatbot_Stock_Optimization
 ---
 

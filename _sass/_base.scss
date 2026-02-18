@@ -8,6 +8,16 @@ p, h1, h2, h3, h4, h5, h6, em, div, li, span, strong {
   color: var(--global-text-color);
 }
 
+body, p, li, span, div {
+  font-family: "Space Grotesk", "Segoe UI", system-ui, sans-serif;
+  letter-spacing: 0.1px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Fraunces", "Georgia", serif;
+  letter-spacing: 0.2px;
+}
+
 hr {
   border-top: 1px solid var(--global-divider-color);
 }
@@ -64,9 +74,18 @@ blockquote {
 
 .card {
   background-color: var(--global-card-bg-color);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 18px;
+  box-shadow: 0 12px 24px rgba(15, 23, 42, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 
   img {
     width: 100%;
+  }
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 16px 32px rgba(15, 23, 42, 0.12);
   }
 
   .card-title {
@@ -82,6 +101,10 @@ blockquote {
       align-items: center;
     }
   }
+}
+
+.card-title.text-lowercase {
+  text-transform: none;
 }
 
 // Citation
@@ -137,10 +160,11 @@ blockquote {
 // Navbar customization
 
 .navbar {
-  box-shadow: none;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.08);
   border-bottom: 1px solid var(--global-divider-color);
-  background-color: var(--global-bg-color);
-  opacity: 0.95;
+  background-color: color-mix(in srgb, var(--global-bg-color) 88%, transparent);
+  backdrop-filter: blur(8px);
+  opacity: 0.98;
 }
 .navbar .dropdown-menu {
   background-color: var(--global-bg-color);
@@ -170,6 +194,8 @@ blockquote {
   }
   .navbar-brand {
     color: var(--global-text-color);
+    font-family: "Fraunces", "Georgia", serif;
+    letter-spacing: 0.4px;
   }
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);

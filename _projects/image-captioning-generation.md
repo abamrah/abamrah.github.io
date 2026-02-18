@@ -3,7 +3,7 @@ layout: project
 title: Image Captioning and Generation
 description: Transformer-based image captioning with GAN-based image generation using PyTorch.
 category: fun
-importance: 3
+importance: 4
 github: https://github.com/abamrah/Image_Captioning
 ---
 
