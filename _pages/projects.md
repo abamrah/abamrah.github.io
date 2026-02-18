@@ -5,7 +5,7 @@ permalink: /projects/
 description: Selected work and side projects.
 nav: true
 nav_order: 2
-display_categories: [work, fun]
+display_categories:
 horizontal: false
 ---
 
@@ -38,6 +38,9 @@ horizontal: false
 {%- else -%}
 <!-- Display projects without categories -->
   {%- assign sorted_projects = site.projects | sort: "importance" -%}
+  {%- if sorted_projects.size == 0 -%}
+    <p>No projects found. If this is unexpected, confirm the site built with the latest commit.</p>
+  {%- endif -%}
   <!-- Generate cards for each project -->
   {% if page.horizontal -%}
   <div class="container">
