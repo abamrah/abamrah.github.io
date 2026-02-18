@@ -2,7 +2,8 @@ github_users:
   - abamrah
 
 github_repos:
-  - abamrah/abamrah.guthub.io
+  - abamrah/abamrah.github.io
+  - abamrahsanofi/landlord-bot
   - abamrah/Chatbot_Stock_Optimization
   - abamrah/NLP-NLG_Tweets
   - abamrah/Quant-Credit_Risk_Modeling
