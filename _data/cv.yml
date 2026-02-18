@@ -2,15 +2,17 @@
   type: map
   contents:
     - name: Name
-      value: Arshdeep Singh Bamrah, M.Eng, P.Eng
+      value: Arshdeep Singh Bamrah
     - name: Location
       value: Toronto, ON
     - name: Email
       value: arsh.bamrah27@gmail.com
-    - name: Date of Birth
-      value: 27th January 1993
+    - name: LinkedIn
+      value: https://www.linkedin.com/in/arshdeep-s-0a432685/
+    - name: GitHub
+      value: https://github.com/abamrah
     - name: Languages
-      value: English, Punjabi and Hindi
+      value: English, Punjabi, Hindi
 
 - title: Core Skills
   type: nested_list
@@ -37,96 +39,74 @@
   type: time_table
   contents:
     - title: Master of Engineering (M.Eng), Machine Learning
-      institution: University of Toronto, Toronto, Canada
+      institution: University of Toronto
       year: 2022
       description:
-        - GPA 3.7/4.0
-        - Completed coursework in Neural Networks, Reinforcement Learning, and Deep Learning, providing a strong foundation in advanced machine learning techniques and algorithms.
-        
-    - title: Bachelor of Engineering (B.Eng)
-      institution: Toronto Metropolitan University (formerly Ryerson), Toronto, Canada
+        - Focused on Neural Networks, Reinforcement Learning, and Deep Learning.
+    - title: Bachelor of Engineering (B.Eng), Mechanical Engineering
+      institution: Toronto Metropolitan University
       year: 2016
       description:
-        - GPA 3.6/4.0
-        - Awarded Professional Engineering and Queen Elizabeth Scholarship for high academic achievements (total $10,000 awarded)
+        - Queen Elizabeth Scholarship for high academic achievements.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Data Scientist (Commercial GenAI & AI Product Design)
-      institution: Sanofi, Toronto, ON
-      year: Aug 2025 – Present
+    - title: Data Scientist (Commercial GenAI)
+      institution: Sanofi
+      year: Aug 2025 - Present
       description:
-        - Served as GenAI Data Science lead for Elevate commercial analytics initiatives, working closely with business to design and deliver Agentic AI and Generative AI solutions.
-        - Led solution design and architecture, defining how LLMs, RAG pipelines, Agentic workflows, and TTS systems integrate to support business decision-making.
-        - Translated commercial business questions into AI-ready problem statements, success metrics, and solution designs.
-        - Delivered a working AI podcast generation pilot, converting structured commercial insights into LLM-generated scripts and multi-voice audio.
-        - Developed and worked on data quality standards, grounding strategies, and validation logic, improving trust and usability of AI-generated outputs.
-        - Defined Agentic AI framework standards, including orchestration logic, feedback loops, and governance considerations.
-
+        - Defined agentic AI standards covering orchestration, multi-step reasoning, and RAG feedback loops.
+        - Designed GenAI products integrating LLMs, RAG pipelines, and TTS for enterprise decision support.
+        - Delivered an audio insight platform with LLM-generated scripts and multi-voice TTS.
+        - Established grounding, data quality, and validation controls for reliable AI outputs.
     - title: Reliability AI / Predictive Maintenance Engineer
-      institution: Sanofi, Toronto, ON
-      year: Aug 2024 – Aug 2025
+      institution: Sanofi
+      year: Aug 2024 - Aug 2025
       description:
-        - Designed and deployed predictive maintenance and reliability ML workflows using time-series sensor data, SPC metrics, and anomaly detection models.
-        - Built a BERT-based NLP pipeline to automate FMEA extraction from unstructured maintenance logs, reducing manual analysis by 95%.
-        - Developed Snowflake SQL feature pipelines integrating IIoT data, alarm histories, and SAP PM records to support downtime risk scoring.
-        - Translated ML outputs into actionable maintenance strategies, supporting PdM program design and scaling across manufacturing assets.
-        - Defined data and ML architecture standards to enable scalable reliability analytics.
-
+        - Led vendor collaboration to deploy time-series anomaly detection for critical assets.
+        - Built Snowflake feature pipelines with IIoT, alarms, and SAP PM for downtime risk scoring.
+        - Developed a BERT-based NLP pipeline to extract FMEA entities from maintenance logs.
+        - Delivered reliability dashboards and weekly insights for leadership.
     - title: Reliability Data Scientist
-      institution: Apotex Inc., Toronto, ON
-      year: May 2021 – Aug 2024
+      institution: Apotex
+      year: May 2021 - Aug 2024
       description:
-        - Developed time-series models forecasting equipment downtime, cycle-time deviation, and component reliability trends.
-        - Built a 95% accurate anomaly detection model using XGBoost, deployed via Azure WebApp for real-time process deviation alerts.
-        - Analyzed IIOT sensor data, alarm codes, batch records, and SCADA streams to identify early failure indicators.
-        - Designed Azure ML pipelines for ingestion, feature engineering, model training, validation, and deployment.
-        - Containerized ML workflows using Docker and implemented CI/CD-style retraining pipelines.
-        - Built transformer-based semantic search engine using GPT/BERT embeddings, reducing engineering analytics time by 4+ hours weekly.
-
+        - Built Azure ML pipelines for ingestion, feature engineering, and controlled deployments.
+        - Created a transformer-based semantic search engine using GPT/BERT embeddings.
+        - Deployed XGBoost anomaly detection with real-time process deviation alerts.
+        - Implemented Docker and CI/CD retraining pipelines for production ML.
     - title: Project Engineer
-      institution: STT Enviro Corp, Milton, ON
-      year: Apr 2017 – Sept 2020
+      institution: Carmeuse - STT
+      year: 2017 - 2020
       description:
-        - Automated engineering calculations and layout design optimization using Python scripting and Excel VBA.
-        - Developed custom ETL pipeline for design parameters enabling early-stage predictive modeling in plant commissioning.
+        - Led mechanical layout and infrastructure designs for bulk chemical plants.
 
-- title: Open Source Projects
+- title: Technical Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/abamrah/Chatbot_Stock_Optimization">Chat-Bot_Stock_Protfolio_Optimization</a>
-      year: 2022-now
-      description: Created a chatbot using IBM Watson and Python, that optimizes user portfolio by applying computational financial strategies such as Minimum Variance, Monte Carlo Simulations, and Sharpe Ratio Optimization, to increase returns by 7+%.
+    - title: <a href="https://github.com/abamrahsanofi/landlord-bot">Landlord-Bot</a>
+      year: 2024 - Present
+      description: Agentic landlord console for tenant maintenance triage, reply drafting, advisor chat, and safeguards. Node.js, Express, TypeScript, Prisma, Postgres, and Vertex AI (Gemini).
+    - title: <a href="https://github.com/abamrah/Chatbot_Stock_Optimization">Chatbot Stock Portfolio Optimization</a>
+      year: 2022
+      description: IBM Watson chatbot that optimizes portfolios using Minimum Variance, Monte Carlo simulation, and Sharpe ratio optimization.
+    - title: <a href="https://github.com/abamrah/Image_Captioning">Image Captioning and Generation</a>
+      year: 2021 - 2022
+      description: Transformer-based image captioning with GAN-based image generation using PyTorch.
 
-    - title: <a href="https://github.com/abamrah/Image_Captioning">Image_Captioning_and_Generation</a>
-      year: 2021-2022
-      description: Created a model using Pytorch, Neural Networks and Transformers to generate captions of images, later used GAN to generate images from captions using Style GANs.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 2011-2015
-      items: 
-        - Queen Elizabeth Scholarship for high academic achievements
-
-- title: Academic Interests
+- title: Core Skills
   type: nested_list
   contents:
-    - title: Natural Language Processing
-      items: 
-        - Text generation
-        - Information retrieval
-        - Topic modeling
-        - Sentiment analysis
-    - title: Image and Video Processing
+    - title: Generative AI
       items:
-        - Object Detection and Recognition
-        - Image and Video Captioning
-        - Generative Transformer Models
-        - Style Transfer
-
-- title: Other Interests
-  type: list
-  contents:
-  - <u>Hobbies:</u> Swimming, Hiking, Mountain biking, Camping, Mindfulness meditation, Pets.
+        - LLMs, agentic orchestration, RAG, embeddings, semantic search, TTS
+    - title: Machine Learning
+      items:
+        - Time-series modeling, anomaly detection, forecasting, feature engineering
+    - title: Cloud and MLOps
+      items:
+        - Azure ML, Databricks, AWS SageMaker, Docker, Kubernetes, CI/CD, Snowflake
+    - title: Product and Delivery
+      items:
+        - Solution architecture, stakeholder engagement, vendor leadership

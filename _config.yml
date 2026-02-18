@@ -8,7 +8,7 @@ middle_name:
 last_name: Bamrah
 email: arsh.bamrah27@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Senior Data Scientist and AI Engineer focused on GenAI, agentic systems, and production ML.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -71,7 +71,7 @@ github_username: abamrah # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: # your Twitter handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
-linkedin_username: # your LinkedIn user name
+linkedin_username: arshdeep-s-0a432685 # your LinkedIn user name
 telegram_username: # your Telegram user name
 scholar_userid: # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
@@ -100,7 +100,7 @@ youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 discord_id: # your discord id (18-digit unique numerical identifier)
 
 contact_note: >
-  Reach me via my email- arsh.bamrah27@gmail.com.
+  Reach me at arsh.bamrah27@gmail.com.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -167,8 +167,8 @@ collections:
     output: false
     permalink: /news/:path/
   projects:
-    output: false
-    permalink: #/projects/:path/
+    output: true
+    permalink: /projects/:path/
 
 news_scrollable: true # adds a vertical scroll bar if there are more than 3 news items
 news_limit: 5 # leave blank to include all the news in the `_news` folder
@@ -308,7 +308,7 @@ external_links:
 # -----------------------------------------------------------------------------
 
 imagemagick:
-  enabled: true # enables responsive images for your site (recomended, see https://github.com/alshedivat/al-folio/issues/537)
+  enabled: false # disable locally on Windows to avoid ImageMagick CLI errors
   widths:
     - 480
     - 800

@@ -6,6 +6,11 @@ body {
   padding-bottom: 70px;
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
+  background-image:
+    radial-gradient(circle at 12% 20%, rgba(15, 118, 110, 0.12), transparent 45%),
+    radial-gradient(circle at 80% 10%, rgba(249, 115, 22, 0.12), transparent 40%),
+    radial-gradient(circle at 70% 80%, rgba(13, 148, 136, 0.12), transparent 42%);
+  background-attachment: fixed;
 
   h1, h2, h3, h4, h5, h6 {
     scroll-margin-top: 66px;
