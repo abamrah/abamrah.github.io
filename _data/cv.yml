@@ -95,18 +95,3 @@
       year: 2021 - 2022
       description: Transformer-based image captioning with GAN-based image generation using PyTorch.
 
-- title: Core Skills
-  type: nested_list
-  contents:
-    - title: Generative AI
-      items:
-        - LLMs, agentic orchestration, RAG, embeddings, semantic search, TTS
-    - title: Machine Learning
-      items:
-        - Time-series modeling, anomaly detection, forecasting, feature engineering
-    - title: Cloud and MLOps
-      items:
-        - Azure ML, Databricks, AWS SageMaker, Docker, Kubernetes, CI/CD, Snowflake
-    - title: Product and Delivery
-      items:
-        - Solution architecture, stakeholder engagement, vendor leadership
