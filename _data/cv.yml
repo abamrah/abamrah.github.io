@@ -14,6 +14,27 @@
     - name: Languages
       value: English, Punjabi, Hindi
 
+- title: Core Skills
+  type: nested_list
+  contents:
+    - title: Generative AI & Agentic Systems
+      items:
+        - LLMs (GPT, BERT, Transformers)
+        - Agentic AI frameworks, orchestration, prompt design
+        - RAG, embeddings, semantic search
+        - Text summarization, classification, conversational AI
+        - Text-to-Speech (TTS) and Speech-to-Text (STT)
+    - title: Machine Learning & Data Science
+      items:
+        - Time-series modeling, anomaly detection, forecasting
+        - Feature engineering, supervised & unsupervised learning
+    - title: Cloud, Data & MLOps
+      items:
+        - Azure Machine Learning, AWS SageMaker
+        - Docker, Kubernetes, CI/CD pipelines
+        - Python, SQL, Pandas, NumPy, PySpark
+        - Snowflake, Databricks
+
 - title: Education
   type: time_table
   contents:
